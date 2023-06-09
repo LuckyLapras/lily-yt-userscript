@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         New Userscript
-// @namespace    http://tampermonkey.net/
-// @version      0.1
+// @name         new subbox sucks
+// @namespace    http://github.com/LuckyLapras/lily-yt-userscript
+// @version      0.2
 // @description  fuck google
 // @author       twitter user @_kobe_san
 // @match        https://www.youtube.com/feed/subscriptions
@@ -61,7 +61,7 @@
         font-size:14px;
         line-height:initial;
     }
-    #text.complex-string.ytd-channel-name,ytd-video-meta-block[rich-meta]#metadata-line.ytd-video-meta-block{
+    #text.complex-string.ytd-channel-name,ytd-video-meta-block[rich-meta]#metadata-line.ytd-video-meta-block, span.inline-metadata-item.style-scope.ytd-video-meta-block{
         font-size:12px;
         line-height:initial;
     }`
